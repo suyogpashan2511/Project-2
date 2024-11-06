@@ -1,0 +1,81 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main
+{
+	position: relative;
+	height: 100vh;
+}
+
+.main svg
+{
+	position: absolute;
+	width: 100%;
+}
+
+.navigation
+{
+	height: 50px;
+	padding: 30px 100px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	z-index: 99;
+}
+
+.toggle .close
+{
+	display: none;
+}
+
+.nav-menu li
+{
+	display: inline-block;
+	margin: 0 30px;
+	font-size: 20px;
+	color: #fff;
+}
+
+
+.nav-menu li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.container
+{
+	height: 75vh;
+	width: 80vh;
+	color: #fff0;
+	position: absolute;
+	top: 50%;
+	left: 48%;
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
